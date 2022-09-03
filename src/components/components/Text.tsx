@@ -3,7 +3,7 @@ import { FunctionComponent } from "react";
 
 interface Props {
   rawValue: string[];
-  errorNode: string[];
+  errorNode: number[];
   curInputIndex: number;
 }
 
@@ -25,7 +25,7 @@ const DisplayText: FunctionComponent<Props> = ({
               ></span>
             );
           }
-          if (errorNode.includes(String(idx))) {
+          if (errorNode.includes(idx)) {
             // if its an error
             return (
               <span

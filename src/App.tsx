@@ -14,8 +14,8 @@ const App: React.FC = (): JSX.Element => {
 
   return (
     <div className='w-screen'>
-      <StartScreen getTimerInfo={getTimerInfo} />
-      {/* <Home /> */}
+      {/* <StartScreen getTimerInfo={getTimerInfo} /> */}
+      <Home />
     </div>
   );
 };

@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./src/**/*.{html,js,jsx}"],
+  content: ["./src/**/*.{html,js,jsx,tsx}"],
   theme: {
     extend: {},
     colors: {
@@ -13,9 +13,9 @@ module.exports = {
       "gray-dark": "#273444",
       gray: "#8492a6",
       "gray-light": "#d3dce6",
-      'dark-gray': '#333941',
-      'black-light': '#444444',
-      red: {
+      "dark-gray": "#333941",
+      "black-light": "#444444",
+      "red": {
         500: "#ef4444",
       },
     },
